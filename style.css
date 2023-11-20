@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin:5%;
+  width: 400px;
+  max-height: 535px;
+  border: 4px solid black;
+}
+input {
+  background-color: black;
+  color: white;
+  width: 380px;
+  height: 2em;
+  padding: 10px;
+  font-size: 38px;
+  text-align: right;
+  border-radius: 5px;
+}
+main{
+  width: 400px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+button {
+  padding: 10px;
+  font-size: 3.5em;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.op1{
+  background-color: #e0974c ;
+  color: white;
+}
+.op2{
+  background-color: #e0974c ;
+  color: white;
+}
+.op3{
+  background-color: #e0974c ;
+  color: white;
+}
+.op4{
+  background-color: #e0974c ;
+  color: white;
+}
+.result{
+  background-color: #e0974c ;
+  color: white;
+}
+.button{
+  display: grid;
+  grid-template-columns: repeat(4, 10px);
+  grid-template-rows: repeat(5, 10px);
+}
+.cl5{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.cl1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cl2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cl3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cl4{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+button:hover {
+  background-color: #e0e0e0;
+}
