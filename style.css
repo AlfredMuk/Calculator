@@ -31,6 +31,14 @@ button {
   cursor: pointer;
   border: 1px solid black;
 }
+.clear{
+  background-color: rgb(234, 113, 113);
+  color: white;
+}
+.O{
+  background-color: black;
+  color: white;
+}
 .op1{
   background-color: #e0974c ;
   color: white;
